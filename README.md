@@ -14,12 +14,12 @@ Selected coursework and independent projects in applied statistics and quantitat
 
 ## Causal Inference
 - causal-methods-comparison.ipynb - A comparative implementation of core causal inference techniques, covering treatment effect estimation, panel/time-series methods, and instrumental variables identification. Methods covered include: 
-- **ATE identification** — derivation under randomisation; conditions for selection bias in observational data
-- **CATE** — T-learner vs. Causal Forest, with calibration and monotonicity checks
-- **SCM vs. CausalImpact** — synthetic control vs. Bayesian structural time-series, applied to policy evaluation
-- **DID** — derived from first principles; equivalence to two-period fixed-effects regression
-- **IV / LATE** — identification under exclusion restriction and monotonicity
-- **ASCM** — bias-corrected SCM via ridge-regression outcome model
+   - **ATE identification** — derivation under randomisation; conditions for selection bias in observational data
+   - **CATE** — T-learner vs. Causal Forest, with calibration and monotonicity checks
+   - **SCM vs. CausalImpact** — synthetic control vs. Bayesian structural time-series, applied to policy evaluation
+   - **DID** — derived from first principles; equivalence to two-period fixed-effects regression
+   - **IV / LATE** — identification under exclusion restriction and monotonicity
+   - **ASCM** — bias-corrected SCM via ridge-regression outcome model
 
 ## Regression Analysis
 - housing-regression/housing_price_quantile_regression.R — OLS and quantile regression on housing sale prices, comparing how the relationship between living area and price varies across the price distribution, with results interpreted as evidence of divergent pricing behaviour between higher- and lower-income buyers. Employed regularisation techniques to extend the model to the full feature set, using LASSO to select the most predictive variables and cross-validation with pinball loss to tune the penalty strength across quantiles.
