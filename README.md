@@ -1,5 +1,5 @@
 # Quantitative Projects
-Selected coursework and independent projects in applied statistics and quantitative modelling in Bayesian inference, regression analysis, etc.
+Selected coursework and independent projects in applied statistics and quantitative modelling in Bayesian Statistics, Causal Inference, Regression Analysis, etc.
 
 
 ## Bayesian Statistics
