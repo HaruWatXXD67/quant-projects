@@ -1,4 +1,4 @@
-# quant-projects
+# Quantitaive Projects
 Selected coursework and independent projects in applied statistics and quantitative modelling in Bayesian inference, regression analysis, etc.
 
 Bayesian Statistics
