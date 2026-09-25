@@ -13,3 +13,8 @@ Bayesian Statistics
 Regression Analysis
 - housing-regression/housing_price_quantile_regression.R — OLS and quantile regression on housing sale prices, comparing how the relationship between living area and price varies across the price distribution, with results interpreted as evidence of divergent pricing behaviour between higher- and lower-income buyers.
 - market-microstructure/regression_analysis.R — Regression analysis of price changes against trade volume, bid-ask spread, and market depth using high-frequency trading data, with nested model comparison via ANOVA to assess the joint significance of order-book variables.
+
+Overview of the numerical methods and algorithms that were employed throughout my computational courses
+- optimization/gradient_descent_and_newtons_method.ipynb — minimizing non-convex functions via gradient descent and Newton's method, with - - convergence visualized against the function surface.
+simulation/monte_carlo_and_fft.ipynb — Monte Carlo estimation of π and a definite integral via random sampling, and frequency-domain decomposition of a multi-component signal via FFT.
+- graph-algorithms/dijkstra_and_tree_traversal.ipynb — Dijkstra's shortest-path algorithm implemented from scratch with full path reconstruction, alongside recursive depth-first and iterative breadth-first tree traversal.
