@@ -13,14 +13,26 @@ Bayesian Statistics
 
 
 Causal Inference
-- causal-methods-comparison.ipynb - A comparative implementation of core causal inference techniques, covering treatment effect estimation, panel/time-series methods, and instrumental variables identification. Methods covered include:
-- **Average Treatment Effect (ATE) identification** — formal derivation under randomisation, and the conditions under which selection bias arises in observational data
-- **Conditional Average Treatment Effects (CATE)** — estimated and compared using a T-learner (linear regression) and a Causal Forest (random forest), with calibration and monotonicity checks across predicted-effect quartiles
-- **Synthetic Control Method (SCM) vs. Bayesian structural time-series (CausalImpact)** — applied to a policy evaluation, comparing transparent weighting-based counterfactuals against probabilistic credible intervals
-- **Difference-in-Differences (DID)** — derived from first principles, showing its equivalence to a two-period fixed-effects regression
-- **Instrumental Variables (IV) / Local Average Treatment Effect (LATE)** — identification under an exclusion restriction and monotonicity assumption
-- **Augmented Synthetic Control Method (ASCM)** — bias-corrected extension of SCM combining a ridge regression outcome model with SCM's weighting scheme
+- causal-methods-comparison.ipynb - A comparative implementation of core causal inference techniques, covering treatment effect estimation, panel/time-series methods, and instrumental variables identification. Methods covered include: 
+## Methods
+- **ATE identification** — derivation under randomisation; conditions for selection bias in observational data
+- **CATE** — T-learner vs. Causal Forest, with calibration and monotonicity checks
+- **SCM vs. CausalImpact** — synthetic control vs. Bayesian structural time-series, applied to policy evaluation
+- **DID** — derived from first principles; equivalence to two-period fixed-effects regression
+- **IV / LATE** — identification under exclusion restriction and monotonicity
+- **ASCM** — bias-corrected SCM via ridge-regression outcome model
 
+## Structure
+├── causal_methods_comparison.ipynb
+├── CATE_data.csv
+├── Basque_data.csv # SCM / ASCM case study (Abadie & Gardeazabal, 2003)
+└── README.md
+
+## Tools
+Python — `pandas`, `numpy`, `scikit-learn`, `scipy.optimize`, `matplotlib`
+
+## Reference
+Abadie, A. and Gardeazabal, J. (2003) 'The Economic Costs of Conflict: A Case Study of the Basque Country', *American Economic Review*, 93(1), pp. 113–132.
 
 Regression Analysis
 - housing-regression/housing_price_quantile_regression.R — OLS and quantile regression on housing sale prices, comparing how the relationship between living area and price varies across the price distribution, with results interpreted as evidence of divergent pricing behaviour between higher- and lower-income buyers. Employed regularisation techniques to extend the model to the full feature set, using LASSO to select the most predictive variables and cross-validation with pinball loss to tune the penalty strength across quantiles.
