@@ -22,12 +22,6 @@ Methods
 - **IV / LATE** — identification under exclusion restriction and monotonicity
 - **ASCM** — bias-corrected SCM via ridge-regression outcome model
 
-Structure
-├── causal_methods_comparison.ipynb
-├── CATE_data.csv
-├── Basque_data.csv # SCM / ASCM case study (Abadie & Gardeazabal, 2003)
-└── README.md
-
 ## Regression Analysis
 - housing-regression/housing_price_quantile_regression.R — OLS and quantile regression on housing sale prices, comparing how the relationship between living area and price varies across the price distribution, with results interpreted as evidence of divergent pricing behaviour between higher- and lower-income buyers. Employed regularisation techniques to extend the model to the full feature set, using LASSO to select the most predictive variables and cross-validation with pinball loss to tune the penalty strength across quantiles.
 - market-microstructure/regression_analysis.R — Regression analysis of price changes against trade volume, bid-ask spread, and market depth using high-frequency trading data, with nested model comparison via ANOVA to assess the joint significance of order-book variables.
