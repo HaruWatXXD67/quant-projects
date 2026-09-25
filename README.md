@@ -11,7 +11,7 @@ Bayesian Statistics
 - bayesian_gibbs_truncated_multivariate_normal.ipynb — Gibbs sampling from a five-dimensional truncated multivariate normal distribution with AR(1)-structured correlation between components, comparing the resulting marginal distributions under two different mean vectors.
 
 Regression Analysis
-- housing-regression/housing_price_quantile_regression.R — OLS and quantile regression on housing sale prices, comparing how the relationship between living area and price varies across the price distribution, with results interpreted as evidence of divergent pricing behaviour between higher- and lower-income buyers.
+- housing-regression/housing_price_quantile_regression.R — OLS and quantile regression on housing sale prices, comparing how the relationship between living area and price varies across the price distribution, with results interpreted as evidence of divergent pricing behaviour between higher- and lower-income buyers. Employed regularisation techniques to extend the model to the full feature set, using LASSO to select the most predictive variables and cross-validation with pinball loss to tune the penalty strength across quantiles.
 - market-microstructure/regression_analysis.R — Regression analysis of price changes against trade volume, bid-ask spread, and market depth using high-frequency trading data, with nested model comparison via ANOVA to assess the joint significance of order-book variables.
 
 Overview of the numerical methods and algorithms that were employed throughout my computational courses
