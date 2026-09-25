@@ -13,10 +13,7 @@ Bayesian Statistics
 
 
 Causal Inference
-- causal-methods-comparison.ipynb - A comparative implementation of core causal inference techniques, covering treatment effect estimation, panel/time-series methods, and instrumental variables identification. Originally developed as a final report for a graduate-level causal inference course.
-**Average Treatment Effect (ATE) identification** — formal derivation under randomisation, and the conditions under which selection bias arises in observational data
-
-## Methods covered
+- causal-methods-comparison.ipynb - A comparative implementation of core causal inference techniques, covering treatment effect estimation, panel/time-series methods, and instrumental variables identification. Methods covered include:
 - **Average Treatment Effect (ATE) identification** — formal derivation under randomisation, and the conditions under which selection bias arises in observational data
 - **Conditional Average Treatment Effects (CATE)** — estimated and compared using a T-learner (linear regression) and a Causal Forest (random forest), with calibration and monotonicity checks across predicted-effect quartiles
 - **Synthetic Control Method (SCM) vs. Bayesian structural time-series (CausalImpact)** — applied to a policy evaluation, comparing transparent weighting-based counterfactuals against probabilistic credible intervals
