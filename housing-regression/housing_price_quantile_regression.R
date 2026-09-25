@@ -4,11 +4,11 @@ library(dplyr)
 library(tidyr)
 library(caret)
 
-df <- read.csv("train.csv")
+df <- read.csv("house0.csv")
 head(df)
 summary(df)
 
-df1 <- read.csv("train_processed.csv")
+df1 <- read.csv("house1.csv")
 head(df1)
 summary(df1)
 
