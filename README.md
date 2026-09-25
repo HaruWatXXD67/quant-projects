@@ -14,7 +14,6 @@ Selected coursework and independent projects in applied statistics and quantitat
 
 ## Causal Inference
 - causal-methods-comparison.ipynb - A comparative implementation of core causal inference techniques, covering treatment effect estimation, panel/time-series methods, and instrumental variables identification. Methods covered include: 
-Methods
 - **ATE identification** — derivation under randomisation; conditions for selection bias in observational data
 - **CATE** — T-learner vs. Causal Forest, with calibration and monotonicity checks
 - **SCM vs. CausalImpact** — synthetic control vs. Bayesian structural time-series, applied to policy evaluation
