@@ -12,7 +12,7 @@ Selected coursework and independent projects in applied statistics and quantitat
 - bayesian_gibbs_truncated_multivariate_normal.ipynb — Gibbs sampling from a five-dimensional truncated multivariate normal distribution with AR(1)-structured correlation between components, comparing the resulting marginal distributions under two different mean vectors.
 
 
-## Causal Inference
+## Econometrics
 - causal-methods-comparison.ipynb - A comparative implementation of core causal inference techniques, covering treatment effect estimation, panel/time-series methods, and instrumental variables identification. Methods covered include: 
    - **ATE identification** — derivation under randomisation; conditions for selection bias in observational data
    - **CATE** — T-learner vs. Causal Forest, with calibration and monotonicity checks
